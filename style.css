@@ -1,4 +1,46 @@
+@font-face {
+    font-family: "Plain Light";
+    src: url(./fonts/plain-regular-webfont.ttf);
+}
 
+@font-face {
+    font-family: "Plain Light";
+    src: url(./fonts/plain-light-webfont.ttf);
+}
+
+@font-face {
+    font-family: "silk serif";
+    src: url(./fonts/silkserif-regularitalic-webfont.ttf);
+}
+
+@font-face {
+    font-family: "silk serif";
+    src: url(./fonts/silkserif-lightitalic-webfont.ttf);
+}
+
+#smartphone {
+    display: none;
+
+  }
+  
+  @media (max-width: 767px) {
+    #loader {
+      display: none;
+    }
+    #main {
+      display: none; /* Change from opacity to display */
+    }
+    #smartphone {
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: black;
+      padding: 5vh;
+    }
+  }
+  
 
 * {
     padding: 0;
