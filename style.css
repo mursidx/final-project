@@ -362,8 +362,8 @@ hr.animate {
 }
 
 #video-container video {
-    height: 98%;
-    width: 98%;
+    height: 97%;
+    width: 97.5%;
     -o-object-fit: cover;
        object-fit: cover;
 }
