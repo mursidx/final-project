@@ -350,6 +350,9 @@ hr.animate {
     position: relative;
     left: 25vw;
     background-image: url(cover.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 #video-container img {
@@ -357,15 +360,13 @@ hr.animate {
     height: 100%;
     width: 100%;
     top: 0;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 #video-container video {
-    height: 97%;
-    width: 97.5%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 98.5%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #video-cursor {
