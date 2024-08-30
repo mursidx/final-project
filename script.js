@@ -127,6 +127,18 @@ videoContainer.addEventListener('mouseleave', () => {
 function loadingAnimation() {
     let tl = gsap.timeline();
 
+let loaderr =    document.getElementById("loader")
+function loaderVisiblity(){
+    loaderr.style.opacity = 1;
+}
+loaderVisiblity()
+
+let loaderrr =    document.getElementById("page1")
+function loaderVisiblityy(){
+    loaderrr.style.opacity = 1;
+}
+loaderVisiblityy()
+
     tl.from('#loader h1', {
         y: 150,
         stagger: 0.25,
@@ -160,7 +172,7 @@ function loadingAnimation() {
     tl.to('#loader', {
         y: -1600,
         display: 'none',
-        duration: 2.5,
+        duration: 3.7,
     });
 }
 
@@ -199,7 +211,7 @@ gsap.from('.hero h1,#video-container', {
     y: 200,
     stagger: 0.20,
     duration: 0.6,
-    delay: 6.5,
+    delay: 6.3,
 });
 
 // Sherry.js magnet effect
